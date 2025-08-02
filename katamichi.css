@@ -1,0 +1,160 @@
+BODY{
+  background-color :  #eeeeff;
+  font-size : 10pt;
+  font-family: "Verdana","Meiryo", "メイリオ","游ゴシック", "Hiragino Kaku Gothic ProN", sans-serif;
+  color : #444476;
+	line-height:110%;
+
+  margin: -6px 0px 0px 0px;
+
+  scrollbar-base-color:#c3c3d5;
+  SCROLLBAR-FACE-COLOR:#c3c3d5;
+  SCROLLBAR-HIGHLIGHT-COLOR: #fafaff;
+  SCROLLBAR-SHADOW-COLOR: #fafaff;
+
+  SCROLLBAR-3DLIGHT-COLOR:#535365;
+  SCROLLBAR-ARROW-COLOR: #535365;
+
+  SCROLLBAR-TRACK-COLOR: #838395;
+
+  SCROLLBAR-DARKSHADOW-COLOR: #535365;
+  
+  
+}
+
+A:LINK,A:VISITED{color:#fe3364;text-decoration : underline;}
+A:HOVER,A:ACTIVE{color : #ff86a6;text-decoration : underline;}
+A{text-decoration : none;}
+
+A.blue:LINK,A.blue:VISITED{color:#5658f6;}
+A.blue:HOVER,A.blue:ACTIVE{color : #9698e6;text-decoration : underline;}
+
+
+A.g:LINK,A.g:VISITED{color:#38b68c;text-decoration:underline;}
+A.g:HOVER,A.g:ACTIVE{color:#68d6ac;text-decoration:underline;}
+
+
+LI{margin:4px 0px 0px 0px;}
+
+INPUT{border-color: #7678f6;}
+
+/*--ﾃｰﾌﾞﾙ--*/
+table{font-size:10pt;
+	line-height:110%;}
+.black{background-color:#000000;}
+.white{background:#fafaff;}
+.mwhite{background:#fefeff;}
+.veryusui{background:#f0f0fa;}
+.mgray{background:#636395;}
+.mmgray{background:#a3a3c5;}
+.fullwhite{background:#ffffff;}
+
+
+
+.gray{
+	color:#ffffff;
+	background:#535385;
+  background: linear-gradient(#535385, #7373C5);
+  background: -moz-linear-gradient(top, #535385, #7373C5);
+  background: -webkit-gradient(linear, center top, center bottom, from(#535385), to(#7373C5));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF535385', endColorstr='#FF7373C5');
+
+}
+
+.koi_back{
+	color:#ffffff;
+	background-color:#aaaacc;
+
+  background: linear-gradient(#aaaacc, #8888aa);
+  background: -moz-linear-gradient(top, #aaaacc, #8888aa);
+  background: -webkit-gradient(linear, center top, center bottom, from(#aaaacc), to(#8888aa));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFaaaacc', endColorstr='#FF8888aa');
+
+}
+
+.fred{color:#F54343;}
+.fbred{color:#C52323;}
+.flred{color:#FFC3C3;}
+
+.main_back{
+background-color:#feffff;
+	background-image : url(background.jpg);
+	background-repeat: no-repeat;
+	
+	
+}
+
+.back{
+  background-color: #f5f7ff; 
+  background: linear-gradient(to right,#fcfdff, #efefff);
+  background: -moz-linear-gradient(left top, #fcfdff, #efefff);
+  background: -webkit-gradient(linear, left top, right bottom, from(#fcfdff), to(#efefff));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#FFfcfdff', endColorstr='#FFefefff');
+}
+
+
+
+/*---FONT---*/
+.fb{color:#000000;}
+.fw{color:#ffffff;}
+.fmw{color:#d2d2dd;}
+.fg{color:#434375;}
+.fmg{color:#636395;}
+.flink{color:#737395;}
+.fmmg{color:#a3a3c5;}
+.ten{font-size:10pt;}
+.elev{font-size:12pt;}
+.plus{font-size:14pt;}
+
+/*--線色--*/
+/*.line{color:#c3c3f5; margin:3px 0px 3px 0px;}*/
+
+
+hr { /* 線 */
+    border: 0;
+    width: 97%;
+    height: 1px;
+    background: #336;
+    background-image: -webkit-linear-gradient(left, #eef, #446, #eef);
+    background-image:    -moz-linear-gradient(left, #eef, #446, #eef);
+    background-image:     -ms-linear-gradient(left, #eef, #446, #eef);
+    background-image:      -o-linear-gradient(left, #eef, #446, #eef);
+    margin:6px;
+    margin-bottom:12px;
+}
+
+
+
+
+.dline{color:#60609b;}
+
+
+/*グラデーション　*/
+.gradBlue{ 
+  background-color: #4444aa; 
+  background: linear-gradient( #444499, #6666cc);
+  background: -moz-linear-gradient(top, #444499, #6666cc);
+  background: -webkit-gradient(linear, center top, center bottom, from(#444499), to(#6666cc));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FF444499', endColorstr='#FF6666cc');
+	color:#ffffff;
+} 
+
+
+.gradLightBlue{ 
+  background-color: #eeeeff; 
+  background: -moz-linear-gradient(left top, #ffffff, #f4f1ff);
+  background: -webkit-gradient(linear,left top,left bottom, from(#ffffff), to(#f4f1ff));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFffffff', endColorstr='#FFf4f1ff');
+  background: linear-gradient(#ffffff, #f4f1ff);
+  color:#333365;
+} 
+
+
+.gradLightYellow{ 
+  background-color: #ffffee; 
+  background: linear-gradient(#ffffff, #ffffdd);
+  background: -moz-linear-gradient(left top, #ffffff, #ffffdd);
+  background: -webkit-gradient(linear,left top,left bottom, from(#ffffff), to(#ffffdd));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFffffff', endColorstr='#FFffffdd');
+	color:#333365;
+} 
